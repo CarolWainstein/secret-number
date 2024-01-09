@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+:root {
+    --font-family: 'Lemon', serif;
+    --bg-color: #fdf2ce;
+    --primary-color: #f08590;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    font-family: var(--font-family);
+    padding: 0.5em;
+}
+
+h1 {
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 3em;
+    margin-top: .5em;
+}
+
+h3 {
+    font-size: 2em;
+    margin-top: 1.5em;
+}
+
+.mensagem {
+    font-size: 1.5em;
+    margin-top: 2.5em;
+}
+
+.box {
+    border: 2px solid var(--primary-color);
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 4em;
+    margin: 20px;
+    padding: 10px;
+}
+
+.botao {
+    margin-top: 2em;
+    font-family: var(--font-family);
+    border-radius: 10px;
+    border: none;
+    padding: .5em;
+    font-size: 1.5em;
+    color: var(--bg-color);
+    background-color: var(--primary-color);
+}
+
+.botao:hover {
+    opacity: .7;
+    transition: .5s;
+}
+
+@media (max-width: 600px) {
+    #gif{
+        position: absolute;
+        right: -25%;
+        top: 35%;
+    }
+}
